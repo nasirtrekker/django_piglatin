@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+
+<img src="django.png" height="42" width="42">
+
+<h1> Nasir's Pig Latin Translator </h1>
+<form action = "{% url 'translate' %}">
+  <input type="text" name="originaltext"/>
+  <br />
+  <input type="submit" value="translate" / />
+</form>
+
+<a href="{% url 'about' %}">About</a>
+</html>
